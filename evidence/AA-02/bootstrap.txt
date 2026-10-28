@@ -1,0 +1,13 @@
+M0 execution summary — 2026-10-28 — base Git HEAD eba6bec (uncommitted working tree)
+Local Node 24.22.1, Python 3.12.14, Next.js 16.4.3, CrewAI 1.15.2, MCP 1.26.0
+PASS npm run verify from target repo: 8 Next/API tests + 34 Python tests; 10 CrewAI deprecation warnings
+PASS production Next build without .env (webpack), TypeScript
+PASS real loopback HTTP Next -> worker: outbreak/control, simulated dispatch/submit, auth/Origin/input
+PASS restart and persisted run/receipts, released ports, no synthetic secret in client output
+PASS no external worker socket attempt in isolated test environment
+PASS clean npm ci + uv sync --project worker --frozen --extra dev with Python 3.12
+PASS npm run smoke using freshly installed dependencies, after fixing Next dev static-file path
+PASS npm run dev (Turbopack) + /api/health; Ctrl+C stopped both processes, ports 3000/8000 released
+Initial offline clean install lacked cached packages; downloading from package registries resolved it.
+No provider inference/Search, real scenario tick/submission or Discord send occurred.
+See docs/VERIFICATION.md for scope, historical results and outstanding live configuration.

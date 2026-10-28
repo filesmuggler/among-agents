@@ -1,0 +1,8 @@
+M0 offline doctor execution summary — 2026-10-28
+PASS: RUN_MODE valid
+SET (presence only, not verified credentials): TEAM_HANDLE, YDC_API_KEY, PARASAIL_API_KEY, PARASAIL_BASE_URL, PARASAIL_MODEL, ONE_API_KEY, DISCORD_CHANNEL_ID, SCENARIO_MCP, SCENARIO_NAME
+MISSING: WORKER_TOKEN, ONE_CONNECTION_KEYS, DISCORD_ALLOWED_CHANNEL_IDS, SCENARIO_TEAM_TOKEN
+PENDING / DISABLED: SCENARIO_ALLOW_TICK, SCENARIO_ALLOW_SUBMIT, DISCORD_SEND_ENABLED
+OFFLINE: no remote calls, tick retrieval, submissions or Discord sends.
+.env unchanged and ignored by Git. No values included in this summary.
+SCENARIO_TEAM_TOKEN is optional unless required by organizers.

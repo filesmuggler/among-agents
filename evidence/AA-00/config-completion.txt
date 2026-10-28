@@ -1,0 +1,16 @@
+M0 configuration completion — 2026-10-28 (America/Los_Angeles)
+PASS: WORKER_TOKEN generated and stored locally; value never printed.
+PASS: existing API credentials and other settings preserved; only the explicitly selected Discord target changed.
+PASS: ONE_CONNECTION_KEYS populated from the unique Discord connection.
+PASS: user-confirmed private channel configured and allowlisted; identifiers omitted.
+PASS: RUN_MODE=demo; DISCORD_SEND_ENABLED, SCENARIO_ALLOW_TICK and SCENARIO_ALLOW_SUBMIT are false.
+PASS: offline doctor and pure local dispatch configuration preflight.
+PASS: actual dispatch remains blocked before integration execution.
+PASS: .env mode 0600, ignored and untracked; no staged changes or commits.
+One read-only metadata: server list HTTP 200; selected server and account ownership confirmed.
+PENDING M1: guild channel list and selected channel metadata HTTP 401.
+Channel ID supplied explicitly by user; API metadata, cause of 401 and send permissions are not verified.
+No message reads or sends; no inference, paid search, tick or submission.
+Earlier foundation verification: 8 Next/API + 34 Python tests, build, TypeScript, clean install and HTTP smoke PASS.
+Completion follow-up modified local configuration and documentation only; full code suite was not repeated.
+Linear: existing SKY-39 updated to Done; no duplicate issue created.

@@ -1,0 +1,33 @@
+# Credentials (only templates belong in git)
+.env*
+!.env.example
+**/.env*
+!**/.env.example
+*.pem
+*.key
+.one/
+.onerc
+**/.onerc
+.mcp.json
+
+# Dependencies, build output and local evidence
+node_modules/
+.next/
+out/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.crewai/
+.coverage
+*.tsbuildinfo
+.data/
+evidence/private/
+evidence/raw/
+*.sqlite*
+*.db
+*.log
+coverage/
+.DS_Store
